@@ -98,7 +98,7 @@ function draw() {
   score=score+Math.round(getFrameRate()/60);
   
   if(keyDown("space")&& dino.y>=height-80 ||touches.length>0 && dino.y>=height-80){
-    dino.velocityY=-15;
+    dino.velocityY=-16;
     jump.play();
     touches=[];
   }
